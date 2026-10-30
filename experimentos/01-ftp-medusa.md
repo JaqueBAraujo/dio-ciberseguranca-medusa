@@ -17,6 +17,23 @@ Compreender o funcionamento de ataques de força bruta contra serviços de auten
 4. Criação de uma wordlist com quatro senhas de laboratório.
 5. Execução de um teste controlado de autenticação.
 
+## Evidências do experimento
+
+### 1. Identificação do serviço FTP com Nmap
+
+O Nmap identificou a porta 21/TCP aberta, executando o serviço vsftpd 2.3.4 na máquina Metasploitable 2.
+
+![Identificação do FTP com Nmap](../images/01-nmap-ftp.png)
+
+### 2. Auditoria de autenticação com Medusa
+
+Foi realizado um teste controlado com uma lista reduzida de quatro senhas. O Medusa identificou uma combinação válida de credenciais no ambiente de laboratório.
+
+![Resultado da auditoria com Medusa](../images/02-medusa-resultado.png)
+
+### Considerações de segurança
+
+O experimento demonstra o risco associado a credenciais previsíveis. Entre as medidas recomendadas estão senhas fortes e exclusivas, limitação de tentativas, monitoramento de autenticações e substituição de protocolos inseguros, como FTP, por alternativas protegidas quando aplicável.
 #### Resultado
 
 O Medusa realizou quatro verificações e identificou uma credencial válida para o usuário `msfadmin`.
