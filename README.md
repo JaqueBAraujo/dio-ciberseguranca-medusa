@@ -50,9 +50,9 @@ Os endereços apresentados são privados e pertencem exclusivamente ao ambiente 
 - [x] Inspecionar requisições HTTP e parâmetros de formulários web.
 - [x] Adicionar capturas de tela dos três experimentos.
 - [x] Organizar a documentação técnica individual dos experimentos.
-- [ ] Executar os próximos cenários práticos previstos no laboratório.
-- [ ] Consolidar as recomendações de segurança.
-- [ ] Finalizar a documentação e entregar o projeto na DIO.
+- [x] Executar os próximos cenários práticos previstos no laboratório.
+- [x] Consolidar as recomendações de segurança.
+- [x] Finalizar a documentação e entregar o projeto na DIO.
 
 ## Experimentos realizados
 
