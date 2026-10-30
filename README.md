@@ -70,6 +70,16 @@ Foi utilizada a aplicação DVWA, configurada no nível de segurança `low`, par
 
 [Consultar documentação e evidências](experimentos/02-dvwa-bruteforce.md)
 
+### Experimento 03 — Análise de requisições HTTP no DVWA
+
+Foi realizada uma análise das requisições e respostas HTTP utilizando Firefox Developer Tools, cURL e grep, em ambiente de laboratório autorizado.
+
+O experimento permitiu identificar parâmetros de formulários HTML, interpretar códigos de resposta HTTP (`200 OK` e `302 Found`) e compreender os riscos associados à transmissão de credenciais por parâmetros de URL.
+
+**Resultado:** identificação do funcionamento das requisições HTTP, dos redirecionamentos e dos campos de autenticação.
+
+[Consultar documentação e evidências](experimentos/03-dvwa-http.md)
+
 ### Próximas atividades
 
 - [x] Criar o repositório e organizar a documentação.
