@@ -63,7 +63,7 @@ Este projeto reúne experimentos práticos de cibersegurança executados em um l
 | [01 — Auditoria de autenticação FTP](experimentos/01-ftp-medusa.md) | Nmap e Medusa | Identificação de credencial válida em serviço FTP vulnerável |
 | [02 — Análise de autenticação web no DVWA](experimentos/02-dvwa-bruteforce.md) | Firefox e DVWA | Comparação entre tentativas manuais de autenticação válidas e inválidas |
 | [03 — Análise de requisições HTTP no DVWA](experimentos/03-dvwa-http.md) | Firefox Developer Tools, cURL e grep | Identificação de parâmetros HTTP, redirecionamentos e campos de formulários |
-
+| [04 — Teste automatizado no DVWA](experimentos/04-dvwa-hydra.md) | Hydra 9.7 | Execução automatizada com uma credencial conhecida do laboratório |
 ### Experimento 01 — Auditoria de autenticação FTP
 
 Foi realizada a identificação do serviço FTP na porta 21/TCP e uma simulação controlada de tentativas de autenticação utilizando o Medusa.
