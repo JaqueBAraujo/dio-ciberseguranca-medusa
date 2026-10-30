@@ -97,10 +97,10 @@ O experimento permitiu observar parâmetros de autenticação transmitidos em um
 - [x] Realizar auditoria de autenticação FTP com Medusa.
 - [x] Documentar testes manuais de autenticação no DVWA.
 - [x] Analisar requisições HTTP e formulários web no DVWA.
-- [ ] Executar teste automatizado no formulário Brute Force do DVWA.
-- [ ] Estudar password spraying em SMB no ambiente autorizado.
-- [ ] Consolidar recomendações de segurança.
-- [ ] Finalizar a documentação e entregar o projeto na DIO.
+- [x] Executar teste automatizado no formulário Brute Force do DVWA.
+- [x] Estudar password spraying em SMB no ambiente autorizado.
+- [x] Consolidar recomendações de segurança.
+- [x] Finalizar a documentação e entregar o projeto na DIO.
 
 Os procedimentos, resultados e evidências estão organizados individualmente na pasta `experimentos`, com as capturas de tela armazenadas na pasta `images`.
 
@@ -232,5 +232,8 @@ O terceiro aprofundou a compreensão sobre requisições HTTP, redirecionamentos
 Além do aprendizado técnico, o projeto contribuiu para desenvolver habilidades de documentação, interpretação de resultados, identificação de riscos e elaboração de recomendações de segurança.
 
 A continuidade do laboratório permitirá aprofundar os conhecimentos sobre testes automatizados de autenticação, medidas de proteção e análise de riscos em ambientes controlados.
+O quarto experimento permitiu aplicar o Hydra na automação de um teste de autenticação web, utilizando uma credencial conhecida em ambiente controlado. Durante sua execução, foi necessário consultar a documentação da ferramenta, corrigir erros de sintaxe e interpretar o resultado apresentado.
+
+Com os quatro experimentos, o projeto reúne conhecimentos sobre identificação de serviços, auditoria de credenciais, autenticação web, comunicação HTTP e automação de testes, relacionando os resultados às práticas de prevenção e gestão de riscos.
 
 *Projeto em desenvolvimento como parte do desafio de cibersegurança da DIO.*
