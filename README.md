@@ -47,11 +47,41 @@ Os endereços apresentados são privados e pertencem exclusivamente ao ambiente 
 
 ## Experimentos realizados
 
+Este projeto reúne experimentos práticos de cibersegurança executados em um laboratório virtual controlado, utilizando Kali Linux e Metasploitable 2.
+
 | Experimento | Ferramentas | Resultado |
 |---|---|---|
-| [01 — Auditoria de autenticação FTP](experimentos/01-ftp-medusa.md) | Nmap e Medusa | Credencial válida identificada no laboratório |
+| [01 — Auditoria de autenticação FTP](experimentos/01-ftp-medusa.md) | Nmap e Medusa | Identificação de credencial válida em serviço FTP vulnerável |
+| [02 — Análise de autenticação web no DVWA](experimentos/02-dvwa-bruteforce.md) | Kali Linux, Firefox e DVWA | Comparação entre tentativas manuais de autenticação válidas e inválidas |
 
-Os experimentos são documentados individualmente na pasta `experimentos`, com objetivos, metodologia, resultados, análise e recomendações.
+### Experimento 01 — Autenticação FTP
+
+Foi realizada a identificação do serviço FTP na porta 21/TCP e uma simulação controlada de tentativas de autenticação com o Medusa.
+
+**Resultado:** uma credencial de laboratório foi identificada, demonstrando os riscos associados ao uso de senhas previsíveis.
+
+[Consultar documentação e evidências](experimentos/01-ftp-medusa.md)
+
+### Experimento 02 — Autenticação web no DVWA
+
+Foi utilizada a aplicação DVWA, configurada no nível de segurança `low`, para observar o comportamento de um formulário web diante de credenciais válidas e inválidas.
+
+**Resultado:** foram documentadas as respostas da aplicação durante testes manuais de autenticação.
+
+[Consultar documentação e evidências](experimentos/02-dvwa-bruteforce.md)
+
+### Próximas atividades
+
+- [x] Criar o repositório e organizar a documentação.
+- [x] Configurar e validar o ambiente de laboratório.
+- [x] Realizar auditoria de autenticação FTP com Medusa.
+- [x] Documentar testes manuais de autenticação no DVWA.
+- [ ] Executar teste automatizado no formulário web do DVWA.
+- [ ] Estudar password spraying em SMB no ambiente autorizado.
+- [ ] Consolidar recomendações de segurança.
+- [ ] Finalizar a documentação e entregar o projeto na DIO.
+
+Os procedimentos, resultados e evidências estão organizados individualmente na pasta `experimentos`, com as capturas de tela armazenadas na pasta `images`.
 
 ## Diário de aprendizagem
 
